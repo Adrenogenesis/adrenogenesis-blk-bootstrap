@@ -253,6 +253,8 @@ figure {
 img {
   vertical-align: middle;
   border-style: none;
+  max-width: 100%;
+  height: auto;
 }
 
 svg {
@@ -16382,6 +16384,9 @@ textarea.form-control:active {
 
 .index-page .page-header {
   height: 100vh;
+  background-image: url(../img/kirsten_p3a.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .index-page .page-header .container>.content-center.brand .h1-seo,
