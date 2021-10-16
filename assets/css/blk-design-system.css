@@ -19,13 +19,13 @@
 
 @keyframes move-left-right {
   0% {
-    transform: translateX(-10px);
+    transform: translateX(-100px);
   }
   50% {
-    transform: translateX(10px);
+    transform: translateX(100px);
   }
   100% {
-    transform: translateX(-10px);
+    transform: translateX(-100px);
   }
 }
 
@@ -16420,7 +16420,7 @@ textarea.form-control:active {
   position: absolute;
   transition: 0.5s ease-out;
   overflow: hidden;
-  border-radius: 20%;
+  border-radius: 50%;
 }
 
 .index-page .squares.square1 {
