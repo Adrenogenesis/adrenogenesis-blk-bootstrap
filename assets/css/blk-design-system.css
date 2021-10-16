@@ -16421,12 +16421,14 @@ textarea.form-control:active {
   transition: 0.5s ease-out;
   overflow: hidden;
   border-radius: 50%;
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
 }
 
 .index-page .squares.square1 {
   animation: move-left-right 4s infinite;
-  height: 300px;
-  width: 300px;
+  height: 400px;
+  width: 400px;
   opacity: 0.5;
   left: 3%;
   top: -21%;
@@ -16434,8 +16436,8 @@ textarea.form-control:active {
 
 .index-page .squares.square2 {
   animation: move-left-right 6s infinite;
-  height: 400px;
-  width: 400px;
+  height: 500px;
+  width: 500px;
   opacity: 0.4;
   right: -5%;
   top: -12%;
@@ -16443,8 +16445,8 @@ textarea.form-control:active {
 
 .index-page .squares.square3 {
   animation: move-left-right 5s infinite;
-  height: 200px;
-  width: 200px;
+  height: 300px;
+  width: 300px;
   opacity: 0.1;
   left: -5%;
   bottom: 0%;
@@ -16452,8 +16454,8 @@ textarea.form-control:active {
 
 .index-page .squares.square4 {
   animation: move-left-right 10s infinite;
-  height: 100px;
-  width: 100px;
+  height: 200px;
+  width: 200px;
   opacity: 0.9;
   right: 27%;
   top: 70%;
@@ -16461,8 +16463,8 @@ textarea.form-control:active {
 
 .index-page .squares.square5 {
   animation: move-left-right 6s infinite;
-  height: 250px;
-  width: 250px;
+  height: 350px;
+  width: 350px;
   opacity: 0.1;
   left: 32%;
   bottom: 29%;
@@ -16472,15 +16474,15 @@ textarea.form-control:active {
   animation: move-left-right 9s infinite;
   left: 10%;
   top: 35%;
-  height: 80px;
-  width: 80px;
+  height: 180px;
+  width: 180px;
   opacity: 0.8;
 }
 
 .index-page .squares.square7 {
   animation: move-left-right 3s infinite;
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
   right: -5%;
   bottom: 0%;
   opacity: 0.1;
