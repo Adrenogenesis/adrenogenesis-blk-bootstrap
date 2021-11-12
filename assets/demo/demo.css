@@ -577,6 +577,53 @@ color: #FFFFFF;
   padding-bottom: 0;
 }
 
+#app{
+  display: none;
+  margin-top: 10px;
+  height: 400px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  color: #424242;
+}
+.form_element{
+  margin-top: 20px;
+}
+.titlenft{
+  color: #fff;
+  margin-top: 10px;
+}
+#success_message{
+  background-color: #c4ffc4;
+  border: 1px solid #0fcf0f;
+  border-radius: 4px;
+  display: none;
+}
+
+.adreno {
+  margin: 1%;
+}
+
+.triangle{
+	width: 0;
+	height: 0;
+	border-width: 50px 0 50px 60px;
+	border-color: transparent transparent transparent #EA4A6B;
+	border-style: solid;
+	filter: drop-shadow(5px 5px 1px #A3A3A3);
+}
+
+#block_container
+{
+    margin-top: 50px;
+    text-align:center;
+}
+#bloc1, #bloc2
+{
+    margin: 5px;
+    display:inline;
+}
+
 @media screen and (max-width: 991px) {
   .section-navbars .navbar-collapse {
     display: none !important;
