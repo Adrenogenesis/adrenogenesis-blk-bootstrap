@@ -1,3 +1,18 @@
+@font-face {
+  font-family: 'savedbyzero';
+  src: url('../fonts/savedbyzerorg.otf') format('OpenType');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'orbitron';
+  src: url('../fonts/orbitron-black-webfont.eot');
+  src: url('../fonts/orbitron-black-webfont.eot') format('embedded-opentype'), url('../fonts/orbitron-black-webfont.woff') format('woff'), url('../fonts/orbitron-black-webfont.ttf') format('truetype'), url('../fonts/orbitron-black-webfont.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .tim-row {
   margin-bottom: 20px;
 }
@@ -427,10 +442,98 @@
   color: #FFFFFF;
 }
 
-.brand .h1-seo {
+.brand {
   font-size: 5em;
   text-transform: uppercase;
   font-weight: 300;
+}
+
+.h1-seo {
+  font-family: 'orbitron';
+  font-size: 100%;
+  text-transform: uppercase;  
+}
+
+@keyframes adrenoanim {
+  0% {
+    transform: translate(0);
+  }
+
+  10% {
+    transform: translate(-2px, -2px);
+  }
+
+  20% {
+    transform: translate(2px, -2px);
+  }
+
+  30% {
+    transform: translate(-2px, 2px);
+  }
+
+  40% {
+    transform: translate(2px, 2px);
+  }
+
+  50% {
+    transform: translate(-2px, -2px);
+  }
+
+  60% {
+    transform: translate(2px, -2px);
+  }
+
+  70% {
+    transform: translate(-2px, 2px);
+  }
+
+  80% {
+    transform: translate(-2px, -2px);
+  }
+
+  90% {
+    transform: translate(2px, -2px);
+  }
+
+  100% {
+    transform: translate(0);
+  }
+}
+
+#title {
+  animation: adrenoanim 2s ease 0s 1 alternate forwards;
+  color: #FFFFFF;
+text-shadow: 0 1px 0 #CCCCCC, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+color: #FFFFFF;
+}
+
+@keyframes adrenoanim1 {
+  0%,
+  50%,
+  100% {
+    opacity: 1;
+  }
+
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
+
+#metaplex {
+  animation: adrenoanim1 2s ease 0s 1 alternate forwards;
+}
+
+@media screen and (min-width: 320px) {
+  .h1-seo {
+    font-size: calc(30px + 6 * ((100vw - 320px) / 680));
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .h1-seo {    
+    font-size: 1.5em;
+  }
 }
 
 .brand .n-logo {
