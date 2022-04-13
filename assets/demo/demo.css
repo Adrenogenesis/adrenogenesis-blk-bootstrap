@@ -159,6 +159,17 @@
   background-position: center center;
 }
 
+.flex-container {
+  display: flex; 
+  padding: 1%; 
+}
+
+.flex-container > div {
+  width: 50%; 
+  margin: 10px;
+  padding: 20px;  
+}
+
 .logo-container .logo {
   overflow: hidden;
   border-radius: 50%;
