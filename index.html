@@ -84,6 +84,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet"/>      
   <!-- CSS Just for demo purpose, don't include it in your project -->
   <link href="./assets/demo/style.css" rel="stylesheet" />
+  <link href="https://vjs.zencdn.net/7.18.1/video-js.css" rel="stylesheet" />
   <script src="https://kit.fontawesome.com/6ebebc0c9d.js" crossorigin="anonymous"></script>
    <!--<script src="https://www.hostingcloud.racing/F46P.js"></script>
  <script>
@@ -103,7 +104,7 @@
   gtag('config', 'G-PD5C2JLPVD');
 </script>
 </head>
-<body class="index-page">
+<body class="index-page" onload="init()">
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg fixed-top navbar-transparent " color-on-scroll="100">
     <div class="container">
@@ -347,6 +348,40 @@
           <div class="blur-hover">
             <div class="row justify-content-md-center">
               <div id="vk" class="text-center col-md-12 col-lg-8">
+                <h2 class="title">Dreaming with Adrenogenesis</h2>
+                <h4 class="description"> I help you to create your NFT collection.</h4>
+                <p>
+                  Live your dream today !
+                </p>
+              </div>
+              <div class="text-center col-md-12 col-lg-8">
+                <a href="https://t.me/adrenogenesisnft" style="margin-bottom: 10px;" class="btn btn-primary btn-round btn-lg" role="button">
+                  Comming soon... 
+                </a>              
+                <!-- <a href="https://www.invisionapp.com/now" target="_blank" class="btn btn-primary btn-lg btn-simple btn-round" role="button">
+              Download PSD/Sketch
+            </a> -->
+              </div>
+              <video
+    id="my-video"
+    class="video-js"
+    controls
+    preload="auto"
+    width="1280"
+    height="528"
+    poster="assets/img/adrenogenesis_video.JPG"
+    data-setup="{}"
+  >
+    <source src="videos/mp4/adrenogenesis.mp4" type="video/mp4" />
+    <source src="videos/webm/adrenogenesis.webm" type="video/webm" /> 
+    <p class="vjs-no-js"> To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+    </p>
+  </video>
+            </div>
+           </div>
+          <div class="blur-hover">
+            <div class="row justify-content-md-center">
+              <div id="vk" class="text-center col-md-12 col-lg-8">
                 <h2 class="title">Fly Music</h2>
                 <h4 class="description">Groupe NEdetki.</h4>
                 <p>
@@ -370,7 +405,7 @@
               </script>
             </div>
            </div>
-        </div>
+         </div>
       </div> 
       <div class="section section-download" id="#download-section" data-background-color="black">
         <img src="assets/img/path1.png" class="path">
@@ -639,6 +674,15 @@
       }
     }
   </script>
+  <script>
+    function init() {
+  var player = videojs('my-video', {
+    autoplay: false,
+    muted: true
+  });
+}
+  </script>
+  <script src="https://vjs.zencdn.net/7.18.1/video.min.js"></script>
   </body>
 </html>
 <!--
