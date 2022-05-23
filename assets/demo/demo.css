@@ -491,6 +491,10 @@
   text-transform: uppercase;  
 }
 
+.youtube {
+  padding-top: 20px;
+}
+
 @keyframes adrenoanim {
   0% {
     transform: translate(0);
