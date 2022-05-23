@@ -248,6 +248,11 @@
   width: 100%;
 }
 
+#video {
+  width:560px;
+  height:315px;
+}
+
 @media (max-width: 768px) {
   .parallax .parallax-image {
     width: 100%;
@@ -495,6 +500,11 @@
   padding-top: 20px;
 }
 
+#video {
+  width:560; 
+  height:315;
+}
+
 @keyframes adrenoanim {
   0% {
     transform: translate(0);
@@ -568,6 +578,43 @@ color: #FFFFFF;
 @media screen and (min-width: 320px) {
   .h1-seo {
     font-size: calc(30px + 6 * ((100vw - 320px) / 680));
+  }
+
+  #metaplex {
+    font-size: 20%;
+  }
+
+  #emo {
+    font-size: 20%;
+  }
+
+  .navbar .navbar-brand {
+    margin-left: 0;
+    font-size: 75%;
+  }
+
+  .zoom {
+    padding: 0;
+  }
+
+  .text-center {
+    font-size: 100%;
+  }
+
+  .title {
+    font-size: 100%;
+  }
+}
+
+@media screen and (max-width: 420px) {
+
+  .youtube {
+    padding: 10px;
+  }
+
+  #video {
+    width:90%;
+    height:90%;    
   }
 }
 
