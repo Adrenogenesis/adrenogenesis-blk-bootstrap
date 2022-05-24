@@ -313,6 +313,12 @@
   background-color: #e14ecb30;
 }
 
+#colors {
+  margin-top: 5px;
+  padding-top: 50px;
+  background-color: #e14eca80;
+}
+
 .zoom {
   padding: 50px;  
   transition: transform .2s; /* Animation */
