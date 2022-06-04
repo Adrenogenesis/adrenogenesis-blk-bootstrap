@@ -253,6 +253,22 @@
   height:315px;
 }
 
+.gplay {
+  color: #aaa;
+  padding: 20px;
+  margin: 20px;
+  border: 0.5rem solid;
+  box-shadow: 5px 10px 8px #464646;
+}
+
+.elevation {
+  margin-top: 20px;
+}
+
+.elv {
+  padding: 20px;
+}
+
 @media (max-width: 768px) {
   .parallax .parallax-image {
     width: 100%;

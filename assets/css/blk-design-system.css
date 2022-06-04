@@ -17975,8 +17975,7 @@ hr.line-deafult {
 
 .blur-hover {
   position: relative;
-  padding-bottom: 100px;
-}
+  }
 
 .blur-hover .blur-item {
   transition: 1s cubic-bezier(0.19, 1, 0.22, 1);
