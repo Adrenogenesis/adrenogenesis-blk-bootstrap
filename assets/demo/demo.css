@@ -329,6 +329,16 @@
   background-color: #e14ecb30;
 }
 
+#sound {
+  padding-top: 50px;
+  color: #344675;
+  background-color: #00e1ff;
+}
+
+.fcolor {
+  color: #344675;
+}
+
 #colors {
   margin-top: 5px;
   padding-top: 50px;
