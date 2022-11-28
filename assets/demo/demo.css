@@ -613,6 +613,18 @@ color: #FFFFFF;
 
 @media screen and (max-width: 420px) {
 
+  p {
+    font-size: 80%;
+  }
+
+  h2 {
+    font-size: 95%;
+  }
+
+  h3 {
+    font-size: 95%;
+  }
+ 
   #metaplex {
     font-size: 20%;
   }
@@ -627,8 +639,15 @@ color: #FFFFFF;
   }
 
   .zoom {
-    padding: 0;
+    padding: 0;  
+    width: 50%;
+    margin: 0 auto 10px 0;  
   }
+  
+  .zoom:hover {
+    transform: scale(0); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+  
 
   .text-center {
     font-size: 100%;
