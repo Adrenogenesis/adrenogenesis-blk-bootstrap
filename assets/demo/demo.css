@@ -531,6 +531,10 @@
   height:315;
 }
 
+.sub-ai {
+  margin-top: 5%;
+}
+
 @keyframes adrenoanim {
   0% {
     transform: translate(0);
