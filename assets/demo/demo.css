@@ -310,6 +310,16 @@
   height: 100%;
 }
 
+canvas {
+  display: block;
+}
+
+#sketch-holder {
+  margin-top: 50px;
+  margin-left: 0;
+  padding-left: 15%;
+}
+
 @media (max-width: 768px) {
   .parallax .parallax-image {
     width: 100%;
@@ -319,6 +329,11 @@
   .parallax .parallax-image img {
     height: 100%;
     width: auto;
+  }
+
+  #sketch-holder {
+    margin-top: 50px;
+    margin-left: 0;
   }
 }
 
@@ -815,6 +830,11 @@ color: #FFFFFF;
     left: 0;
     position: absolute;  
   }
+
+  #sketch-holder {
+    margin-top: 0;
+    margin-left: -22%;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -823,7 +843,7 @@ color: #FFFFFF;
     margin-left: 5px;
   }  
   .title-center {
-    top: -100px;
+    top: -50px;
     left: -60px;
     position: absolute;  
   }

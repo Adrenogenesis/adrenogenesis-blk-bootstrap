@@ -99,12 +99,12 @@
 </script>
 </head>
 <!--<body class="index-page" onload="init()">-->
-  <body class="index-page"></body>
+  <body class="index-page">
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg fixed-top navbar-transparent " color-on-scroll="100">
     <div class="container">
       <div class="navbar-translate">
-        <a class="navbar-brand" href="https://www.adrenogenesis.com#exploration" rel="tooltip" title="@Adrenogenesis" data-placement="bottom" target="_blank">
+        <a class="navbar-brand" href="https://www.adrenogenesis.com" rel="tooltip" title="@Adrenogenesis" data-placement="bottom" target="_blank">
           <img src="assets/img/logo_adrenogenesis.jpg">  <span>ADRENOGENESIS•</span> Experimental art
         </a>
         <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
@@ -332,7 +332,9 @@
                 </a>                 
               </div> 
     <div class="text-center col-md-12 col-lg-12">
-<a href="https://far.adrenogenesis.com/" target="_parent"><img src="assets/gif/omega.gif" alt="omega"></a> 
+<div id="sketch-holder">
+    <!-- Our sketch will go here! -->
+  </div>
     </div>
         </div>
            </div>
@@ -567,6 +569,10 @@
   <script src="./assets/demo/demo.js"></script>
   <!-- Control Center for Black UI Kit: parallax effects, scripts for the example pages etc -->
   <script src="./assets/js/blk-design-system.min.js?v=1.0.0" type="text/javascript"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/addons/p5.sound.js"></script>
+  <script language="javascript" type="text/javascript" src="assets/js/p5.quadrille.js"></script>
+  <script src="assets/js/sketch.js"></script>
   <script>
     $(document).ready(function() {
       blackKit.initDatePicker();
