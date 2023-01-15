@@ -284,6 +284,13 @@
   padding: 20px;
 }
 
+.iframecontainer-dim {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  
+}
+
 .iframecontainer {
   position: relative;
   overflow: hidden;
@@ -312,6 +319,12 @@
 
 canvas {
   display: block;
+}
+
+#sketch-holder-dim {
+  margin-top: 10px;
+  margin-left: 0;
+  padding-left: 5%;
 }
 
 #sketch-holder {
